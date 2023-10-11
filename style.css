@@ -1,0 +1,176 @@
+
+.navbar {
+    margin-top: 30px;
+    font-family: 'DM',sans-serif;
+    width: 70%;
+    position: absolute;
+    align-self: first baseline;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.left-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.right-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right-links li {
+    margin: 0 10px;
+}
+
+.right-links li:last-child {
+    margin-right: 0;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.purchase-button {
+    background-color: #E93A7D;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+body {
+    background-color:  #2F1893;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.h1d {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.p1d {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+.h3d
+{
+    color:#1E0E62;
+font-family: 'DM Sans',sans-serif;
+font-size: 42px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4000000059604645px;
+text-align: center;
+margin-top: 10px;
+
+}
+.learn
+{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 40px;
+    background-color: #E93A7D;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    max-width: 40%;
+    
+}
+
+.container1{
+    margin-top: 150px;
+    margin-right: 70px;
+    width: 30%;
+    max-height: 600px;
+    border-radius: 10px;
+    padding: 30px; /* Add padding to container2 for better spacing */
+   
+}
+.container2{
+    margin-top: 150px;
+    width: 30%;
+    max-height: 600px;
+    border-radius: 10px;
+    padding: 30px; /* Add padding to container2 for better spacing */
+}
+
+.container1 {
+    float: left;
+    text-align: left;
+}
+
+.container2 {
+    background-color: whitesmoke;
+    float: right;
+    text-align: center;
+}
+
+.input-box {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.horizontal-line hr {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+.or-text {
+    font-family: 'DM Sans', sans-serif;
+    padding: 0 10px;
+}
+
+.twitter-button {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sign-in-text {
+    font-family: 'DM Sans', sans-serif;
+    color: #25DAC5;
+    ;
+    cursor: pointer;
+}
